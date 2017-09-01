@@ -5,30 +5,75 @@
     <title>Lesson02 - Создание макета страницы. Страница 1</title>
 </head>
 <body>
-    <div class="viewport">
-        <div class="header">
-            <a href="/" class="slogan">petrick co.</a>
-            <div class="header__title"></div>
-        </div>
+    <div class="info">
+        <div class="info__container container">
+            <div class="info__header header">
+                <a class="header__logo logo" href="/">petrick co.</a>
+                <span class="header__title title">stories</span>
+            </div>
 
-        <div class="project__list">
-            <a href="#" class="projects__order-link">stories by date</a>
-            <div class="project__item project-item project-item_inner">
-                <div class="project-item__image">
-                    <img src="bunny.jpg" alt="" />
+            <div class="info__about-company about-company">
+                <div class="about-company__list persons">
+                    <div class="about-company__item person-item">
+                        <h4 class="person-item__name">Musha Petrick</h4>
+                        <h4 class="person-item__position">Direction</h4>
+                        <div class="person-item__avatar">
+                            <img src="ava.png" alt="" />
+                        </div>
+                    </div>
                 </div>
-                <div class="project-item__category">
-                    <h4>3D | 2D | shooting</h4>
+
+                <div class="about-company__abilities abilities abilities__list">
+                    <div class="abilities__item ability-item ability-item__we-do we-do">
+                        <div class="ability-item__title">
+                            <h3>What we do</h3>
+                        </div>
+                        <div class="ability-item__text">
+                            <p>We inlove...</p>
+                        </div>
+                    </div>
+
+                    <div class="abilities__item ability-item ability-item__trust-us trust-us">
+                        <div class="ability-item__title">
+                            <h3>What trust us</h3>
+                        </div>
+                        <div class="ability-item__text text">
+                            <p>Nike, Prada, ...</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-item__title">
-                    <h3>Paramount Comedy ID</h3>
+
+                <div class="about-company__links links">
+                    <a class="links__item link">hello@petrick.co</a>
+                    <a class="links__item link">instagram</a>
+                    <a class="links__item link">facebook</a>
+                    <a class="links__item link">behance</a>
+                    <a class="links__item link">vimeo</a>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="stories">
+        <div class="stories__container container">
+            <div class="stories__list">
+                <a href="#" class="stories__order-link order-link">stories by date</a>
+                <div class="stories__item story-item">
+                    <div class="story-item__image image">
+                        <img src="bunny.jpg" alt="" />
+                    </div>
+                    <div class="story-item__category category">
+                        <h4>3D | 2D | shooting</h4>
+                    </div>
+                    <div class="story-item__title">
+                        <h3>Paramount Comedy ID</h3>
+                    </div>
+                </div>
+            </div>
 
-        <div class="footer">
-            <a href="/" class="slogan">petrick co.</a>
-            <div class="copyright">® 2017</div>
+            <div class="stories__footer footer">
+                <a href="/" class="footer__logo logo">petrick co.</a>
+                <div class="copyright">® 2017</div>
+            </div>
         </div>
     </div>
 </body>
