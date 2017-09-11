@@ -5,150 +5,135 @@
     <title>Lesson02 - Создание макета страницы. Страница 1</title>
 </head>
 <body>
+    <div class="header">
+        <a class="header__logo" href="/">petrick co.</a>
+        <span class="header__title">stories</span>
+    </div>
+
     <div class="info">
         <div class="info__container container">
-            <div class="header">
-                <a class="header__logo logo" href="/">petrick co.</a>
-                <span class="header__title title">stories</span>
-            </div>
-
-            <div class="info__about-company about-company">
-                <div class="about-company__list persons">
-                    <div class="about-company__item person-item">
-                        <h4 class="person-item__name">Misha Petrick</h4>
-                        <h4 class="person-item__position">Direction</h4>
-                        <div class="person-item__avatar">
-                            <img src="ava.png" alt="" />
-                        </div>
+            <div class="info__about-company">
+                <div class="info__persons-list">
+                    <div class="info__person-item">
+                        <span class="person-item__name">Misha Petrick</span>
+                        <span class="person-item__position">Direction</span>
+                        <img class="person-item__avatar" src="ava.png" alt="" />
                     </div>
 
-                    <div class="about-company__item person-item">
-                        <h4 class="person-item__name">Nadya Petrick</h4>
-                        <h4 class="person-item__position">Producer</h4>
-                        <div class="person-item__avatar">
-                            <img src="ava.png" alt="" />
-                        </div>
+                    <div class="info__person-item">
+                        <span class="person-item__name">Nadya Petrick</span>
+                        <span class="person-item__position">Producer</span>
+                        <img class="person-item__avatar" src="ava.png" alt="" />
                     </div>
 
-                    <div class="about-company__item person-item">
-                        <h4 class="person-item__name">Vova Orlov</h4>
-                        <h4 class="person-item__position">Pixelart / 2D Animation Artist</h4>
-                        <div class="person-item__avatar">
-                            <img src="ava.png" alt="" />
-                        </div>
+                    <div class="info__person-item">
+                        <span class="person-item__name">Vova Orlov</span>
+                        <span class="person-item__position">Pixelart / 2D Animation Artist</span>
+                        <img class="person-item__avatar" src="ava.png" alt="" />
                     </div>
 
-                    <div class="about-company__item person-item">
-                        <h4 class="person-item__name">Pasha Borisov</h4>
-                        <h4 class="person-item__position">2.5D Animation Artist</h4>
-                        <div class="person-item__avatar">
-                            <img src="ava.png" alt="" />
-                        </div>
+                    <div class="info__person-item">
+                        <span class="person-item__name">Pasha Borisov</span>
+                        <span class="person-item__position">2.5D Animation Artist</span>
+                        <img class="person-item__avatar" src="ava.png" alt="" />
                     </div>
 
-                    <div class="about-company__item person-item">
-                        <h4 class="person-item__name">Dasha Kuznetsova</h4>
-                        <h4 class="person-item__position">3D Animation Artist</h4>
-                        <div class="person-item__avatar">
-                            <img src="ava.png" alt="" />
-                        </div>
+                    <div class="info__person-item">
+                        <span class="person-item__name">Dasha Kuznetsova</span>
+                        <span class="person-item__position">3D Animation Artist</span>
+                        <img class="person-item__avatar" src="ava.png" alt="" />
                     </div>
                 </div>
 
-                <div class="about-company__abilities abilities abilities__list">
-                    <div class="abilities__item ability-item ability-item__we-do we-do">
+                <div class="info__abilities-list">
+                    <div class="info__ability-item">
                         <h3 class="ability-item__title">What we do</h3>
                         <p class="ability-item__text text">We inlove with different art directions: 2D, pixel art, 3D, collages, hand-drawn animation and also shooting. We try to bring this approach to work of any complexity — from logo animation to complex projects.</p>
                     </div>
 
-                    <div class="abilities__item ability-item ability-item__trust-us trust-us">
+                    <div class="info__ability-item">
                         <h3 class="ability-item__title">What trust us</h3>
                         <p class="ability-item__text text">Who trust us Nike, Prada, Yandex, MegaFon, Google, IKEA, Viber, Paramount Comedy, MEGA, Adidas, МатчТВ, Formula1, Yota, Rocketbank, Samsung, MTS, PlayDoh, Evotor, Tele2, Dreamies</p>
                     </div>
                 </div>
 
-                <div class="about-company__links links">
-                    <a class="links__item link">hello@petrick.co</a>
-                    <a class="links__item link">instagram</a>
-                    <a class="links__item link">facebook</a>
-                    <a class="links__item link">behance</a>
-                    <a class="links__item link">vimeo</a>
+                <div class="info__social-nav">
+                    <a class="social-nav__item">hello@petrick.co</a>
+                    <a class="social-nav__item">instagram</a>
+                    <a class="social-nav__item">facebook</a>
+                    <a class="social-nav__item">behance</a>
+                    <a class="social-nav__item">vimeo</a>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="stories">
         <div class="stories__container container">
 
             <!--a href="#" class="stories__order-link order-link">stories by date</a-->
 
-            <div class="stories__list">
-                <div class="stories__item stories__item_xs-6 story-item">
-                    <div class="story-item__image image image__bunny"></div>
-                    <div class="story-item__category category">
-                        <a class="category__category-3d category-3d">3D</a>
-                        <a class="category__category-2d category-2d">2D</a>
-                        <a class="category__category-shooting category-shooting">shooting</a>
+            <div class="stories__stroies-list">
+                <div class="stories__story-item stories__story-item_xs-6" style="background-image: url('bunny.jpg');">
+                    <div class="story-item__category-list">
+                        <a class="story-item__category-item">3D</a>
+                        <a class="story-item__category-item">2D</a>
+                        <a class="story-item__category-item">shooting</a>
                     </div>
-                    <h3 class="story-item__title title">Paramount Comedy ID</h3>
+                    <span class="story-item__title">Paramount Comedy ID</span>
                 </div>
 
-                <div class="stories__item stories__item_xs-6 story-item">
-                    <div class="story-item__image image image_start"></div>
+                <div class="stories__story-item stories__story-item_xs-6" style="background-image: url('start.jpg');">
                     <div class="story-item__category category category__list">
-                        <a class="category__category-item category-item category__category-3d category-3d">3D</a>
-                        <a class="category__category-item category-item category__category-2d category-2d">2D</a>
-                        <a class="category__category-item category-item category__category-shooting category-shooting">shooting</a>
+                        <a class="story-item__category-item">3D</a>
+                        <a class="story-item__category-item">2D</a>
+                        <a class="story-item__category-item">shooting</a>
                     </div>
-                    <h3 class="story-item__title title">Paramount Comedy ID</h3>
+                    <span class="story-item__title">Paramount Comedy ID</span>
                 </div>
 
-                <div class="stories__item stories__item_xs-9 story-item">
-                    <div class="story-item__image image image__phone"></div>
+                <div class="stories__story-item stories__story-item_xs-9" style="background-image: url('phone.jpg');">
                     <div class="story-item__category category">
-                        <a class="category__category-item category-item category__category-3d category-3d">3D</a>
-                        <a class="category__category-item category-item category__category-2d category-2d">2D</a>
-                        <a class="category__category-item category-item category__category-shooting category-shooting">shooting</a>
+                        <a class="story-item__category-item">3D</a>
+                        <a class="story-item__category-item">2D</a>
+                        <a class="story-item__category-item">shooting</a>
                     </div>
-                    <h3 class="story-item__title title">Paramount Comedy ID</h3>
+                    <span class="story-item__title">Paramount Comedy ID</span>
                 </div>
 
-                <div class="stories__item stories__item_xs-3 story-item">
-                    <div class="story-item__image image image__8_bit"></div>
+                <div class="stories__story-item stories__story-item_xs-3" style="background-image: url('8_bit.jpg');">
                     <div class="story-item__category category">
-                        <a class="category__category-item category-item category__category-3d category-3d">3D</a>
-                        <a class="category__category-item category-item category__category-2d category-2d">2D</a>
-                        <a class="category__category-item category-item category__category-shooting category-shooting">shooting</a>
+                        <a class="story-item__category-item">3D</a>
+                        <a class="story-item__category-item">2D</a>
+                        <a class="story-item__category-item">shooting</a>
                     </div>
-                    <h3 class="story-item__title title">Paramount Comedy ID</h3>
+                    <span class="story-item__title">Paramount Comedy ID</span>
                 </div>
 
-                <div class="stories__item stories__item_xs-3 story-item">
-                    <div class="story-item__image image image__empty"></div>
+                <div class="stories__story-item stories__story-item_xs-3" style="background-image: url('empty.jpg');">
                     <div class="story-item__category category">
-                        <a class="category__category-item category-item category__category-3d category-3d">3D</a>
-                        <a class="category__category-item category-item category__category-2d category-2d">2D</a>
-                        <a class="category__category-item category-item category__category-shooting category-shooting">shooting</a>
+                        <a class="story-item__category-item">3D</a>
+                        <a class="story-item__category-item">2D</a>
+                        <a class="story-item__category-item">shooting</a>
                     </div>
-                    <h3 class="story-item__title title">Paramount Comedy ID</h3>
+                    <span class="story-item__title">Paramount Comedy ID</span>
                 </div>
 
-                <div class="stories__item stories__item_xs-9 story-item">
-                    <div class="story-item__image image image__meat"></div>
+                <div class="stories__story-item stories__story-item_xs-9" style="background-image: url('meat.jpg');">
                     <div class="story-item__category category">
-                        <a class="category__category-item category-item category__category-3d category-3d">3D</a>
-                        <a class="category__category-item category-item category__category-2d category-2d">2D</a>
-                        <a class="category__category-item category-item category__category-shooting category-shooting">shooting</a>
+                        <a class="story-item__category-item">3D</a>
+                        <a class="story-item__category-item">2D</a>
+                        <a class="story-item__category-item">shooting</a>
                     </div>
-                    <h3 class="story-item__title title">Paramount Comedy ID</h3>
+                    <span class="story-item__title">Paramount Comedy ID</span>
                 </div>
-            </div>
-
-            <div class="footer">
-                <a href="/" class="footer__logo logo">petrick co.</a>
-                <div class="footer__copyright copyright">® 2017</div>
             </div>
         </div>
+    </div>
+
+    <div class="footer">
+        <a href="/" class="footer__logo">petrick co.</a>
+        <div class="footer__copyright">® 2017</div>
     </div>
 </body>
 </html>
